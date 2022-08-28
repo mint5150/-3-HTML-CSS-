@@ -1,0 +1,14 @@
+list-style
+https://developer.mozilla.org/ja/docs/Web/CSS/list-style
+
+height以外の方法も！？高さを指定できる7つの方法
+https://qiita.com/7note/items/4055574a7ab24e45022c
+
+display:flexが効かない・横並びにならない原因と修正方法
+https://csshtml.work/displayflex-kuzure/
+
+並列したボックスの中身を揃えたい
+https://komari.co.jp/blog/5203/
+
+CSSで横並びレイアウトを実現簡単にするinline-blockとは？
+https://www.sejuku.net/blog/52822

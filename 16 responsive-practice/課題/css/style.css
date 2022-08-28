@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+.wrapper,.wrapper2 {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.inner2 {
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.boxinner {
+  display: flex;
+  justify-content: center;
+}
+
+.boxinner2 {
+  overflow:hidden;
+}
+
+.boxinner3 {
+  display: flex;
+  justify-content: center;
+}
+
+.boxinner4 {
+  display: flex;
+  justify-content: center;
+}
+
+.boxinner5 {
+  display: flex;
+  justify-content: center;
+}
+
+.boxtext {
+  text-align: center;
+  line-height: 300px;
+}
+
+.box1 {
+  width: 400px;
+  height:  400px;
+  background-color: #f00;
+}
+
+.box2 {
+  width: 300px;
+  height:  300px;
+  background-color: #f00;
+}
+
+.box3 {
+  width: 300px;
+  height:  300px;
+  background-color: #0008ff;
+}
+
+.box4 {
+  width: 300px;
+  height:  300px;
+  background-color: #22ff00;
+  margin-left: 150px;
+}
+
+.box5 {
+  width: 300px;
+  height:  300px;
+  background-color: #0008ff;
+  float: left;
+}
+
+.box6 {
+  width: 300px;
+  height:  300px;
+  background-color: #22ff00;
+  float: left;
+}
+
+.box7 {
+  width: 300px;
+  height:  300px;
+  background-color: #ff0000;
+}
+
+.box8 {
+  width: 300px;
+  height:  300px;
+  background-color: #0008ff;
+}
+
+.box9 {
+  width: 300px;
+  height:  300px;
+  background-color: #ff8400;
+}
+
+.box10 {
+  width: 300px;
+  height:  300px;
+  background-color: #00ff51;
+}
+
+.box11 {
+  width: 300px;
+  height:  300px;
+  background-color: #d4ff00;
+}
+
+.box12 {
+  width: 300px;
+  height:  300px;
+  background-color: #ff00e1;
+}
+
+.box13 {
+  width: 300px;
+  height:  300px;
+  background-color: #ff0000;
+}
+
+.box14 {
+  width: 300px;
+  height:  300px;
+  background-color: #0008ff;
+  display:none;
+}
+
+.box15 {
+  width: 300px;
+  height:  300px;
+  background-color: #00ff51;
+}
+
+@media screen and (max-width: 960px) {
+  .box1 {
+    width: 200px;
+    height:  200px;
+  }
+
+  .box2 {
+    background-color: #007bff;
+  }
+
+  .box4 {
+    margin-left: 50px;
+  }
+
+  .box5,.box6 {
+    float: none;
+  }
+
+  .boxinner3 {
+    flex-direction: row-reverse;
+  }
+
+  .box10 {
+    order: 2;
+  }
+  
+  .box11 {
+    order: 3;
+  }
+  
+  .box12 {
+    order: 1;
+  }
+
+  .box13 {
+    display: none;
+  }
+
+  .box14 {
+    display: block;
+  }
+
+}

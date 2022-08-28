@@ -1,0 +1,36 @@
+@charset "UTF-8";
+.speechbubble {
+  width: 500px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  background: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.speechbubble:after, .speechbubble:before {
+	top: 100%;
+	left: 10%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.speechbubble:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fad296;
+	border-width: 18px;
+  margin-left: -23px;
+}
+.speechbubble:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #8f5a0a;
+	border-width: 25px;
+  margin-left: -30px;
+}

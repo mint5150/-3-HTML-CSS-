@@ -1,0 +1,8 @@
+margin:0 autoが効かない原因と修正方法・代替案
+https://csshtml.work/margin-bad/
+
+flexboxで要素の順番を入れ替える。
+https://qiita.com/YJ2222/items/cd6eebba95350a3b64a5
+
+display noneの2通りの解除方法と使える表示の値7つ
+https://mayonez.jp/topic/1088482

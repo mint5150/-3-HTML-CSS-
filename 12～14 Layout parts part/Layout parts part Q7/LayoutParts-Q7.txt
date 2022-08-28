@@ -1,0 +1,11 @@
+CSSで作る！吹き出しデザインのサンプル19選
+https://saruwakakun.com/html-css/reference/speech-bubble
+
+吹き出しのCSSジェネレーター
+https://cssarrowplease.com/
+
+CSSだけで三角形を作ろう！その2：吹き出しやリボンをデザインする
+https://www.granfairs.com/blog/staff/use-triangle-with-css
+
+CSSのみで吹き出しを作る方法【デザインサンプル10種】
+https://lpeg.info/html/css_bubble.html

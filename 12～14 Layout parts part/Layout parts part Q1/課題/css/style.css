@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* 回答はここから */
+
+/* Q1-1の回答はここから */
+.whitebox {
+    background-color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.purplebox {
+    background-color: #a4b3e9;
+    height: 35px;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+}
+
+.text1 {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+.whitebox2 {
+    background-color: #fff;
+    padding: 20px 0px;
+}
+
+.purplebox2 {
+    background-color: #a4b3e9;
+    height: 35px;
+    width: 90px;
+    margin: 0 auto;
+}
+
+.text2 {
+    padding: 10px 0px;
+    display: block;
+    margin: 0 auto;
+    width: 55px;
+    font-size: 16px;
+}
+
+/* Q1-1の回答はここまで */
+
+/* Q1-2の回答はここから */
+
+.table {
+    width: 250px;
+    height: 150px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tablecontent {
+    padding: 10px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.flex {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontent {
+    padding: 10px;
+    background: #fff;
+}
+
+
+.whitebox3 {
+    background-color: #fff;
+    width: 250px;
+    height: 150px;
+    position: relative;
+}
+
+.purplebox3 {
+    background-color: #a4b3e9;
+    height: 35px;
+    width: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.text3 {
+    padding: 10px 0px;
+    display: block;
+    margin: 0 auto;
+    width: 55px;
+    font-size: 16px;
+}
+
+/* Q1-2の回答はここまで */

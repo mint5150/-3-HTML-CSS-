@@ -1,0 +1,7 @@
+【CSS】display:tableの書き方、使い所を初心者にもわかりやすく解説
+https://web-camp.io/magazine/archives/92996
+
+最初以外の要素にCSSを当てるには？:not()と:first-childを使いこなそう
+https://kouhekikyozou.com/css_except_first_child
+
+

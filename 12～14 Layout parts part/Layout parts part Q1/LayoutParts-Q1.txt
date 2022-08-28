@@ -1,0 +1,42 @@
+/* Q1-1の参考情報 */
+
+【display】インラインブロック要素の性質と使い方
+https://www.itra.co.jp/webmedia/what-is-inline-block.html
+
+CSSで文字を上下左右中央に配置する方法いろいろ
+https://www.esz.co.jp/blog/2847.html
+
+【text-alignの使い方】
+https://www.itra.co.jp/webmedia/text-align.html
+
+※ポイント
+⇒ブロックレベル要素に指定して、ブロック要素内のインライン要素の水平位置を決める
+
+CSSの中央寄せ「margin: 0 auto;」がうまくいかないとき
+https://www.nishi2002.com/16106.html
+
+/* Q1-2の参考情報 */
+
+【CSS】display:tableの書き方、使い所を初心者にもわかりやすく解説
+https://web-camp.io/magazine/archives/92996
+
+[CSS] display: table-cell;を利用した垂直・水平方向の中央寄せ：tableプロパティの特徴
+http://site.oukasei.com/?p=948
+
+ブロックレベル要素とインライン要素
+http://www.htmq.com/htmlkihon/005.shtml
+
+表（テーブル）を表す要素
+https://creatorquest.jp/lessons/html/table/
+
+CSSのvertical-alignが効かない原因と対処法
+https://techacademy.jp/magazine/19415
+
+ブロック内でブロック要素を上下左右中央揃えにする技
+https://qiita.com/HiromuMasuda0228/items/6a51c2ce24c69c937092
+
+CSSフレックスボックス(display:flex)の使い方
+https://mamewaza.com/support/blog/howto-use-flex.html
+
+position: absolute;を中央寄せする方法
+https://cotodama.co/position-absolute-center/

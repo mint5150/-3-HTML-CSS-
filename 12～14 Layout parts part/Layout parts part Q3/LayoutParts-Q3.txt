@@ -1,0 +1,6 @@
+table-layout
+https://developer.mozilla.org/ja/docs/Web/CSS/table-layout
+
+:nth-child
+https://developer.mozilla.org/ja/docs/Web/CSS/:nth-child
+
