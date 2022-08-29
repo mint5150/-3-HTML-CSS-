@@ -1,10 +1,13 @@
 課題
 今回説明したタグを自分なりにまとめてください。
+
 header
 ⇒ページの上部を囲む時に使われるタグ
 
+使用箇所の例
 ・導入的なコンテンツ、ロゴ、ナビゲーション等
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/header
 
 --------------------------------------------------------------------------
@@ -12,8 +15,10 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/header
 nav
 ⇒ナビゲーションリンクのタグ
 
+使用箇所の例
 ・メニュー、目次、索引等
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/nav
 
 --------------------------------------------------------------------------
@@ -22,9 +27,11 @@ article
 ⇒記事部分で使われることが多いが、独立してなり立つ内容の部分にも使われるタグ
 ※ニュースサイトやブログに使われることが多い
 
+使用箇所の例
 ・フォーラムの投稿、雑誌や新聞の記事、ブログの記事、商品カード、ユーザーが投稿したコメント、
 対話型のウィジェットやガジェット、その他の独立したコンテンツの項目etc…
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/article
 
 --------------------------------------------------------------------------
@@ -32,8 +39,10 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/article
 section
 ⇒そのひとかたまりで1つのテーマがある時に使われるタグ
 
+使用箇所の例
 ・見出しを付ける様なコンテンツ
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/section
 
 articleとsectionの違い
@@ -45,8 +54,10 @@ https://jam25.jp/html/how-to-sectioningtag/#:~:text=%E3%81%AF%E3%81%82%E3%82%8B%
 main
 ⇒Webページの中心核となる部分
 
+使用箇所の例
 ・メインコンテンツ
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/main
 
 --------------------------------------------------------------------------
@@ -54,8 +65,10 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/main
 aside
 ⇒本文ではない補足情報
 
+使用箇所の例
 ・サイドバー、補足記事etc...
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/aside
 
 --------------------------------------------------------------------------
@@ -63,8 +76,10 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Element/aside
 footer
 ⇒ページの下部を囲む時に使われるタグ
 
+使用箇所の例
 ・ロゴ、ナビゲーション、コピーライト、運営者情報etc...
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/footer
 
 footerの役割
@@ -75,9 +90,10 @@ https://www.homepage-seisaku.jp/post52/
 div
 ⇒意味を持たずにグループ化したい時に使われるタグ
 
+使用箇所の例
 ・id、class付与etc...
 
+参照サイト
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/div
-
 
 --------------------------------------------------------------------------
