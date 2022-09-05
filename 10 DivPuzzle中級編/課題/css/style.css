@@ -1,28 +1,11 @@
 @charset "UTF-8";
 
-.boxs1 {
-  width: 400px;
-  height: 100px;
-  box-sizing: border-box;
-}
-
-.boxs2 {
-  width: 400px;
-  height: 250px;
-  box-sizing: border-box;
-}
-
-.boxs3 {
-  width: 400px;
-  height: 100px;
-  box-sizing: border-box;
-}
-
 .float-left {
   float:left;
 }
 
 .box1 {
+  width: 400px;
   height: 100px;
   background: #ff0000;
 }
@@ -63,6 +46,7 @@
 }
 
 .box7 {
+  width: 400px;
   height: 100px;
   background: #fff700;
 }
