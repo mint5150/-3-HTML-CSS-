@@ -14,9 +14,6 @@
   width: 400px;
   box-sizing: border-box;
   position: relative;
-}
-
-.box1 {
   height: 100px;
   background: #ff0000;
 }
@@ -27,30 +24,19 @@
   position: absolute;
   top: 20px;
   right: 20px;
+  padding: 10px
 }
 
 .box2 {
   width: 40px;
   height: 40px;
   background: #a9004b;
-  margin: 10px;
+  margin-right: 10px;
   float:left;
 }
 
-.box3 {
-  width: 40px;
-  height: 40px;
-  background: #a9004b;
-  margin: 10px;
-  float:left;
-}
-
-.box4 {
-  width: 40px;
-  height: 40px;
-  background: #a9004b;
-  margin: 10px;
-  float:left;
+.box2:last-child {
+  margin: 0px;
 }
 
 .boxgroup3 {
@@ -80,22 +66,11 @@
   height: 40px;
   background: #ff863f;
   border: 5px solid #fff;
-}
-
-.box7 {
-  width: 140px;
-  height: 40px;
-  background: #ff863f;
-  border: 5px solid #fff;
   margin-top: 10px;
 }
 
-.box8 {
-  width: 140px;
-  height: 40px;
-  background: #ff863f;
-  border: 5px solid #fff;
-  margin-top: 10px;
+.box6:first-child {
+  margin-top: 0px;
 }
 
 .box9 {
