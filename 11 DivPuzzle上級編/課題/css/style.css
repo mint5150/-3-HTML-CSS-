@@ -43,8 +43,6 @@
   box-sizing: border-box;
   width: 400px;
   height: 250px;
-  background: #8c2727;
-  position: relative;
 }
 
 .box5 {
@@ -58,10 +56,19 @@
   box-sizing: border-box;
   position: absolute;
   top: 40px;
-  left: 190px;
+  left: 40px;
 }
 
 .box6 {
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  background: #8c2727;
+  position: relative;
+  float: right;
+}
+
+.box7 {
   width: 140px;
   height: 40px;
   background: #ff863f;
@@ -69,7 +76,7 @@
   margin-top: 10px;
 }
 
-.box6:first-child {
+.box7:first-child {
   margin-top: 0px;
 }
 
