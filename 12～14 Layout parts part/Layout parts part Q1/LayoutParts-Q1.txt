@@ -40,3 +40,6 @@ https://mamewaza.com/support/blog/howto-use-flex.html
 
 position: absolute;を中央寄せする方法
 https://cotodama.co/position-absolute-center/
+
+positionとtranslateを使って要素を中央に配置する方法
+https://arts-factory.net/position/
