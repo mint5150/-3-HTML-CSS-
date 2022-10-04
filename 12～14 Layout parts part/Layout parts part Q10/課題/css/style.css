@@ -74,6 +74,10 @@
 .btn10 {
   color:#67c5ff;
   border: 4px double #67c5ff;
+  background-color: #fff;
+}
+
+.btn10:hover {
   background-color: #fffbef;
 }
 
