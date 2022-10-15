@@ -1,0 +1,84 @@
+下記質問にお答えください。
+
+Q6:通常リストを作成すると"・"が標準で表示されますが
+消しているCSSはどれですか？
+
+reset.cssに記述されている
+ol, ul {
+    list-style: none;
+}
+で非表示になっています。
+
+またaタグをを使用した場合はアンダーラインが表示されますが
+それを打ち消しているCSSはどれですか？
+
+style.cssに記述している
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+で非表示にしています。
+
+
+Q7:before、afterの役割を教えてください。
+
+指定した要素の周りを装飾する疑似要素。
+:beforeは直前、:afterは直後に配置されます。
+
+.speechbubble:before , .speechbubble:after と
+書いている部分がありますがこのメリットを答えてください。
+
+:before、afterの疑似要素を使うと、HTMLの文書構造を変えることなく
+指定した要素の直前、直後に手軽に装飾デザインを追加する指定が出来ます。
+
+.speechbubble:beforeでは茶色の枠線部分、
+.speechbubble:afterではオレンジの内容部分の
+三角形を重ねて吹き出しに見える様に表現しています。
+
+
+Q8:background-imageにプロパティ をいくつか書いていますが
+省力して書くこともできますので省略したものをプッシュしてください。
+
+Q8のCSSを更新しました
+
+Q9:"fadeIn 4s ease 0s 1 normal;"と"spin 4s linear infinite;"の
+それぞれの役割を答えてください。
+
+animation プロパティ
+fadeIn 4s ease 0s 1 normal;
+spin 4s linear infinite;
+
+fadeIn、spinはanimation-nameの値でキーフレームアニメーション名を指定
+（@keyframesで指定した名前を記述する）
+
+4Sはanimation-durationの値で1回のアニメーションにかかる時間を指定
+
+ease、linearはanimation-timing-functionの値でアニメーションの変化率を指定
+easeはアニメーションの中央に向かって速度が増加し、最後に速度が低下する
+linearは等速
+
+0sはanimation-delayの値でアニメーションの開始をどれくらい遅らせるかを指定
+
+1はanimation-iteration-countの値でアニメーションを何回繰り返すかを指定
+
+normalはanimation-directionの値で繰り返し時、往復処理をするかを指定
+
+infiniteはanimation-iteration-countの値で停止する前にアニメーションを再生する回数を指定
+infiniteは無限に繰り返し
+
+
+Q9-5で1回転していますが半回転させたい時はどうすれば良いですか？
+
+@keyframesで指定しているrotateの値を180degに指定する
+
+Q10:3番目の問題で押して感覚がありますが、
+使用しているCSSがなんなのかまた、なぜそうなるのか教えてください。
+
+style.cssに記述されている
+.btn7:active, .btn8:active, .btn9:active {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+クリックした時（active時）にtransform: translateY(5px);でbox-shadowの方向（下側）に5px移動させ、
+box-shadow: none;で影を消すことで、ボタンが押された様に見えます。

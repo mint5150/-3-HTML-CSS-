@@ -4,24 +4,42 @@
   height: 500px;
 }
 
+/*
 .img2 {
   background-image: url("../../image/coffee-background.jpg");
   height: 500px;
   background-repeat: no-repeat;
+}*/
+
+.img2 {
+  background: url("../../image/coffee-background.jpg") no-repeat;
+  height: 500px;
 }
 
+/*
 .img3 {
   background-image: url("../../image/coffee-background.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top -225px left 0px;
+}*/
+
+.img3 {
+  background: url("../../image/coffee-background.jpg") no-repeat center/cover;
+  height: 500px;
 }
 
+/*
 .img4 {
   background-image: url("../../image/coffee-background.jpg");
   height: 500px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}*/
+
+.img4 {
+  background: url("../../image/coffee-background.jpg") no-repeat center/contain;
+  height: 500px;
 }
