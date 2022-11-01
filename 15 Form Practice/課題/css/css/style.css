@@ -192,8 +192,10 @@ input, select, button {
   color: #fff;
 }
 
-button.btn.btn_submit:active {
-  background: #f00;
+.btn_submit:active {
+  background: #fff;
+  color: #0170bf;
+  border: 1px solid #d9d9d9;
 }
 
 .other_text {
