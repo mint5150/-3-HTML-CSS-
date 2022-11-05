@@ -28,6 +28,7 @@
 .boxinner3 {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 
 .boxinner4 {
@@ -92,42 +93,52 @@
   width: 300px;
   height:  300px;
   background-color: #ff0000;
+  display: block;
 }
 
 .box8 {
   width: 300px;
   height:  300px;
   background-color: #0008ff;
+  display: block;
 }
 
 .box9 {
   width: 300px;
   height:  300px;
   background-color: #ff8400;
+  display: block;
 }
 
 .box10 {
   width: 300px;
   height:  300px;
   background-color: #00ff51;
+  display: block;
+  order: 1;
 }
 
 .box11 {
   width: 300px;
   height:  300px;
   background-color: #d4ff00;
+  display: block;
+  order: 2;
 }
 
 .box12 {
   width: 300px;
   height:  300px;
   background-color: #ff00e1;
+  display: block;
+  order: 3;
 }
 
 .box13 {
   width: 300px;
   height:  300px;
   background-color: #ff0000;
+  display: block;
 }
 
 .box14 {
@@ -141,6 +152,7 @@
   width: 300px;
   height:  300px;
   background-color: #00ff51;
+  display: block;
 }
 
 @media screen and (max-width: 960px) {
