@@ -6,8 +6,8 @@
 }
 
 .inner {
-  display: flex;
-  justify-content: center;
+  /*display: flex;
+  justify-content: center;*/
   margin-bottom: 100px;
 }
 
@@ -49,18 +49,21 @@
   width: 400px;
   height:  400px;
   background-color: #f00;
+  margin: 0 auto;
 }
 
 .box2 {
   width: 300px;
   height:  300px;
   background-color: #f00;
+  margin: 0 auto;
 }
 
 .box3 {
   width: 300px;
   height:  300px;
   background-color: #0008ff;
+  display: inline-block;
 }
 
 .box4 {
@@ -68,6 +71,7 @@
   height:  300px;
   background-color: #22ff00;
   margin-left: 150px;
+  display: inline-block;
 }
 
 .box5 {
