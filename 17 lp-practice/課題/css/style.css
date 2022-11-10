@@ -303,14 +303,7 @@ li.icons a {
 /*キービジュアル*/
 .keyvisual-inner {
   background-size: cover;
-}
-
-h1 {
-  padding-top: 250px;
-}
-
-h2 {
-  padding-bottom: 250px;
+  padding: 250px 0px;
 }
 
 /*ワークスセクション*/
@@ -382,13 +375,15 @@ table {
 }
 
 /*キービジュアル*/
+.keyvisual-inner {
+  padding: 200px 0px;
+}
+
 h1 {
-  padding-top: 200px;
   font-size: 40px;
 }
 
 h2 {
-  padding-bottom: 200px;
   font-size: 30px;
 }
 
