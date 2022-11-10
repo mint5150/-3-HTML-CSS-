@@ -39,11 +39,16 @@ main {
   padding-top: 78px;
 }
 
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
 /*キービジュアル*/
 .keyvisual-inner {
   background-image: url("../img/keyvisual/keyvisual.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   padding: 400px 0px;
 }
 
@@ -294,6 +299,10 @@ li.icons a {
 }
 
 @media screen and (min-width:768px) and ( max-width:1199px) {
+.inner {
+  width: 97%;
+}
+
 /*ヘッダー*/
   .header-nav {
     justify-content: space-between;
@@ -355,6 +364,10 @@ table {
 }
 
 @media screen and (max-width: 767px) {
+.inner {
+  width: 97%;
+}
+
 /*ヘッダー*/
   .contact {
     display: none;
@@ -376,6 +389,7 @@ table {
 
 /*キービジュアル*/
 .keyvisual-inner {
+  background-size: cover;
   padding: 200px 0px;
 }
 
