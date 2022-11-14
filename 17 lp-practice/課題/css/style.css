@@ -6,6 +6,11 @@ header {
   width: 100%;
 }
 
+.header-inner {
+  max-width: 1100px;
+  margin:0 auto;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -39,17 +44,13 @@ main {
   padding-top: 78px;
 }
 
-.inner {
-  width: 1100px;
-  margin: 0 auto;
-}
-
 /*キービジュアル*/
 .keyvisual-inner {
   background-image: url("../img/keyvisual/keyvisual.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 400px 0px;
+  width: 100%;
 }
 
 h1 {
@@ -68,11 +69,16 @@ h2 {
 }
 
 /*ワークスセクション*/
-.work-inner {
+.work {
   background-color: #e3f2fd;
+}
+
+.work-inner {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 1100px;
+  margin:0 auto;
 }
 
 .work-left {
@@ -107,6 +113,11 @@ h3.section-title {
 }
 
 /*スキルズセクション*/
+.skills-inner {
+  max-width: 1100px;
+  margin:0 auto;
+}
+
 h3.section-title2 {
   font-size: 40px;
   letter-spacing: 10px;
@@ -119,7 +130,7 @@ div.slills-contener {
   display: flex;
   flex-wrap: wrap;
   /*justify-content: center;*/
-  margin-bottom: 80px;
+  margin-bottom: 70px;
 }
 
 div.slills img {
@@ -128,8 +139,12 @@ div.slills img {
 }
 
 div.slills {
-  margin-left: 100px;
+  margin-right: 100px;
   margin-bottom: 100px;
+}
+
+div.slills:nth-child(3n) {
+  margin-right: 0px;
 }
 
 div.slills:nth-child(4n) {
@@ -154,8 +169,13 @@ table {
   width: 70%;
 }
 
-.plan-inner {
+.plan {
   background-color: #d0dfea;
+}
+
+.plan-inner {
+  max-width: 1100px;
+  margin:0 auto;
 }
 
 .table {
@@ -193,11 +213,15 @@ tr:first-child {
 }
 
 /*SNSセクション*/
-.sns-inner {
+.sns-nav {
   background-color: #e3f2fd;
+}
+
+.sns-inner {
   padding-top: 200px;
   padding-bottom: 200px;
-  width: 100%;
+  max-width: 1100px;
+  margin:0 auto;
 }
 
 .sns-icons {
@@ -225,10 +249,15 @@ li.icons a {
 }
 
 /*フッターセクション*/
-.footer-inner {
+footer {
   background-color: #cfd8dc;
+}
+
+.footer-inner {
   display: flex;
   justify-content: right;
+  max-width: 1100px;
+  margin:0 auto;
 }
 
 .copy {
@@ -340,10 +369,12 @@ div.slills-contener {
 }
 
 div.slills {
-  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 0px;
   text-align: center;
 }
+
+
 
 div.slills:nth-child(4n) {
   margin-left: none;
@@ -426,7 +457,7 @@ div.slills-contener {
 }
 
 div.slills {
-  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 0px;
   text-align: center;
 }
