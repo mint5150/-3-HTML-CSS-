@@ -6,7 +6,7 @@ header {
   width: 100%;
 }
 
-.header-inner {
+.inner {
   max-width: 1100px;
   margin:0 auto;
 }
@@ -15,7 +15,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 150px;
 }
 
 .header-logo {
@@ -77,8 +76,6 @@ h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1100px;
-  margin:0 auto;
 }
 
 .work-left {
@@ -113,11 +110,6 @@ h3.section-title {
 }
 
 /*スキルズセクション*/
-.skills-inner {
-  max-width: 1100px;
-  margin:0 auto;
-}
-
 h3.section-title2 {
   font-size: 40px;
   letter-spacing: 10px;
@@ -136,6 +128,11 @@ div.slills-contener {
 div.slills img {
   width: 300px;
   height: 300px;
+  opacity:0.7;
+}
+
+div.slills img:hover {
+  opacity:1.0;
 }
 
 div.slills {
@@ -171,11 +168,6 @@ table {
 
 .plan {
   background-color: #d0dfea;
-}
-
-.plan-inner {
-  max-width: 1100px;
-  margin:0 auto;
 }
 
 .table {
@@ -220,8 +212,6 @@ tr:first-child {
 .sns-inner {
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 1100px;
-  margin:0 auto;
 }
 
 .sns-icons {
@@ -256,8 +246,6 @@ footer {
 .footer-inner {
   display: flex;
   justify-content: right;
-  max-width: 1100px;
-  margin:0 auto;
 }
 
 .copy {
