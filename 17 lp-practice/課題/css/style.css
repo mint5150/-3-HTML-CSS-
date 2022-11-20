@@ -70,6 +70,7 @@ h2 {
 /*ワークスセクション*/
 .work {
   background-color: #e3f2fd;
+  padding-top: 50px;
 }
 
 .work-inner {
@@ -83,17 +84,16 @@ h2 {
   text-align: center;
 }
 
+.work-left img {
+  width: 250px;
+}
+
 .work-right {
   flex-basis: 60%;
   text-align: center;
 }
 
-.work-img img {
-  width: 250px;
-  padding-top: 50px;
-}
-
-h3.section-title {
+.work-title {
   font-size: 40px;
   letter-spacing: 10px;
   margin-top: 20px;
@@ -106,11 +106,10 @@ h3.section-title {
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  width: 650px;
 }
 
 /*スキルズセクション*/
-h3.section-title2 {
+.section-title {
   font-size: 40px;
   letter-spacing: 10px;
   padding-top: 50px;
@@ -118,37 +117,39 @@ h3.section-title2 {
   text-align: center;
 }
 
-div.slills-contener {
+.slills-contener {
   display: flex;
   flex-wrap: wrap;
   /*justify-content: center;*/
   margin-bottom: 70px;
 }
 
-div.slills img {
+.slills img {
   width: 300px;
   height: 300px;
   opacity:0.7;
+
 }
 
-div.slills img:hover {
+.slills img:hover {
+  transition: all 0.7s;
   opacity:1.0;
 }
 
-div.slills {
+.slills {
   margin-right: 100px;
   margin-bottom: 100px;
 }
 
-div.slills:nth-child(3n) {
+.slills:nth-child(3n) {
   margin-right: 0px;
 }
 
-div.slills:nth-child(4n) {
+.slills:nth-child(4n) {
   margin-left: none;
 }
 
-div.slills:nth-last-child(-n+3) {
+.slills:nth-last-child(-n+3) {
   margin-bottom: 70px;
 }
 
@@ -219,7 +220,7 @@ tr:first-child {
   justify-content: center;
 }
 
-li.icons {
+.icons {
   width: 185px;
   color: #8c8c8c;
   font-size: 40px;
@@ -229,12 +230,12 @@ li.icons {
   text-align: center;
 }
 
-li.icons:hover {
+.icons:hover {
   background-color: #fff;
   transition: all 0.5s;
 }
 
-li.icons a {
+.icons a {
   color: #8c8c8c;
 }
 
@@ -316,78 +317,78 @@ footer {
 }
 
 @media screen and (min-width:768px) and ( max-width:1199px) {
-.inner {
-  width: 97%;
-}
+  .inner {
+    width: 97%;
+  }
 
-/*ヘッダー*/
+  /*ヘッダー*/
   .header-nav {
     justify-content: space-between;
     margin: 0 20px;
-}
+  }
 
-/*キービジュアル*/
-.keyvisual-inner {
-  background-size: cover;
-  padding: 250px 0px;
-}
+  /*キービジュアル*/
+  .keyvisual-inner {
+    background-size: cover;
+    padding: 250px 0px;
+  }
 
-/*ワークスセクション*/
-.work-inner {
-  display: block;
-}
+  /*ワークスセクション*/
+  .work-inner {
+    display: block;
+  }
 
-h3.section-title {
-  width: 100%;
-}
+  .work-title {
+    width: 100%;
+  }
 
-.work-right {
-  margin: 0 15px;
-}
+  .work-right {
+    margin: 0 15px;
+  }
 
-.work-text {
-  width: 100%;
-  padding-bottom: 50px;
-}
+  .work-text {
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
-/*スキルズセクション*/
-div.slills-contener {
-  display: block;
-  flex-wrap: nowrap;
-}
+  /*スキルズセクション*/
+  .slills-contener {
+    display: block;
+    flex-wrap: nowrap;
+  }
 
-div.slills {
-  margin-right: 0px;
-  margin-bottom: 0px;
-  text-align: center;
-}
+  .slills {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
 
 
 
-div.slills:nth-child(4n) {
-  margin-left: none;
-}
+  .slills:nth-child(4n) {
+    margin-left: none;
+  }
 
-div.slills:nth-last-child(-n+3) {
-  margin-bottom: 0px;
-}
+  .slills:nth-last-child(-n+3) {
+    margin-bottom: 0px;
+  }
 
-div.slills:nth-of-type(3n) {
-  margin-bottom: 80px;
-}
+  .slills:nth-of-type(3n) {
+    margin-bottom: 80px;
+  }
 
-/*プランセクション*/
-table {
-  width: 95%;
-}
+  /*プランセクション*/
+  table {
+    width: 95%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-.inner {
-  width: 97%;
-}
+  .inner {
+    width: 97%;
+  }
 
-/*ヘッダー*/
+  /*ヘッダー*/
   .contact {
     display: none;
   }
@@ -404,95 +405,95 @@ table {
     display: block;
     overflow: hidden;
     margin: 0 10px
-}
+  }
 
-/*キービジュアル*/
-.keyvisual-inner {
-  background-size: cover;
-  padding: 200px 0px;
-}
+  /*キービジュアル*/
+  .keyvisual-inner {
+    background-size: cover;
+    padding: 200px 0px;
+  }
 
-h1 {
-  font-size: 40px;
-}
+  h1 {
+    font-size: 40px;
+  }
 
-h2 {
-  font-size: 30px;
-}
+  h2 {
+    font-size: 30px;
+  }
 
-/*ワークスセクション*/
-.work-inner {
-  display: block;
-}
+  /*ワークスセクション*/
+  .work-inner {
+    display: block;
+  }
 
-h3.section-title {
-  width: 100%;
-}
+  .work-title {
+    width: 100%;
+  }
 
-.work-right {
-  margin: 0 15px;
-}
+  .work-right {
+    margin: 0 15px;
+  }
 
-.work-text {
-  width: 100%;
-  padding-bottom: 60px;
-}
+  .work-text {
+    width: 100%;
+    padding-bottom: 60px;
+  }
 
-/*スキルズセクション*/
-div.slills-contener {
-  display: block;
-  flex-wrap: nowrap;
-}
+  /*スキルズセクション*/
+  .slills-contener {
+    display: block;
+    flex-wrap: nowrap;
+  }
 
-div.slills {
-  margin-right: 0px;
-  margin-bottom: 0px;
-  text-align: center;
-}
+  .slills {
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
 
-div.slills:nth-child(4n) {
-  margin-left: none;
-}
+  .slills:nth-child(4n) {
+    margin-left: none;
+  }
 
-div.slills:nth-last-child(-n+3) {
-  margin-bottom: 0px;
-}
+  .slills:nth-last-child(-n+3) {
+    margin-bottom: 0px;
+  }
 
-div.slills:nth-of-type(3n) {
-  margin-bottom: 70px;
-}
+  .slills:nth-of-type(3n) {
+    margin-bottom: 70px;
+  }
 
-/*プランセクション*/
-table {
-  width: 95%;
-}
+  /*プランセクション*/
+  table {
+    width: 95%;
+  }
 
-th {
-  font-size: 14px;
-  line-height: 22px;
-}
+  th {
+    font-size: 14px;
+    line-height: 22px;
+  }
 
-td {
-  font-size: 12px;
-}
+  td {
+    font-size: 12px;
+  }
 
-.sns-icons {
-  display: block;
-  margin: 0 15px;
-}
+  .sns-icons {
+    display: block;
+    margin: 0 15px;
+  }
 
-li.icons {
-  width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+  .icons {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-.sns-inner {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+  .sns-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
-.copy {
-  margin-right: 10px;
-}
+  .copy {
+    margin-right: 10px;
+  }
 }
