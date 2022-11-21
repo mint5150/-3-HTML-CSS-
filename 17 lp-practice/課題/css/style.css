@@ -121,18 +121,17 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   /*justify-content: center;*/
-  margin-bottom: 70px;
+  /*margin-bottom: 70px;*/
 }
 
 .slills img {
   width: 300px;
   height: 300px;
   opacity:0.7;
-
+  transition: all 0.7s;
 }
 
 .slills img:hover {
-  transition: all 0.7s;
   opacity:1.0;
 }
 
@@ -146,7 +145,7 @@ h2 {
 }
 
 .slills:nth-child(4n) {
-  margin-left: none;
+  margin-left: 0px;
 }
 
 .slills:nth-last-child(-n+3) {
@@ -366,7 +365,7 @@ footer {
 
 
   .slills:nth-child(4n) {
-    margin-left: none;
+    margin-left: 0px;
   }
 
   .slills:nth-last-child(-n+3) {
@@ -452,7 +451,7 @@ footer {
   }
 
   .slills:nth-child(4n) {
-    margin-left: none;
+    margin-left: 0px;
   }
 
   .slills:nth-last-child(-n+3) {
