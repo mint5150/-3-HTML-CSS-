@@ -371,7 +371,6 @@ footer {
 
   .work-text {
     width: 100%;
-    padding-bottom: 50px;
   }
 
   /*スキルズセクション*/
@@ -391,7 +390,7 @@ footer {
     margin-right: 0px;
   }
 
-  /*.slills:nth-child(4n) {
+  /*.skills:nth-child(4n) {
     margin-left: 0px;
   }*/
 
@@ -456,6 +455,10 @@ footer {
   }
 
   /*ワークスセクション*/
+  section.work {
+    padding-bottom: 60px;
+  }
+
   .work-inner {
     display: block;
   }
@@ -470,7 +473,6 @@ footer {
 
   .work-text {
     width: 100%;
-    padding-bottom: 60px;
   }
 
   /*スキルズセクション*/
