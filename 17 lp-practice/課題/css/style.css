@@ -4,7 +4,8 @@ header {
   background-color: #ffffff;
   position: fixed;
   width: 100%;
-  margin-top: -78px;
+  z-index: 1;
+  /*margin-top: -78px;*/
 }
 
 .inner {
@@ -41,7 +42,10 @@ a {
 }
 
 main {
-  margin-top: 78px;
+  position: absolute;
+  top: 78px;
+  width: 100%;
+  /*margin-top: 78px;*/
 }
 
 section {
@@ -128,12 +132,11 @@ section.skills {
   padding-bottom: 70px;
 }
 
-
 .skills-contener {
   display: flex;
   flex-wrap: wrap;
   /*justify-content: center;*/
-  margin-top: 35px
+  margin-top: 50px
 }
 
 .skills img {
