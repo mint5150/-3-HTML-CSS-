@@ -20,7 +20,7 @@ header {
 }
 
 .header-logo {
-  margin: 15px 0px;
+  padding: 15px 0px;
   color: #777;
 }
 
@@ -42,10 +42,10 @@ a {
 }
 
 main {
-  position: absolute;
+  /*position: absolute;
   top: 78px;
-  width: 100%;
-  /*margin-top: 78px;*/
+  width: 100%;*/
+  padding-top: 78px;
 }
 
 section {
