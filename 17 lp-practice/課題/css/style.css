@@ -382,8 +382,6 @@ footer {
   }
 
   .skills {
-    margin-right: 0px;
-    margin-bottom: 0px;
     text-align: center;
   }
 
@@ -392,6 +390,7 @@ footer {
     margin-top: 0px;
 }
 
+  /*pc版の打消し*/
   .skills:not(:nth-child(3n)) {
     margin-right: 0px;
   }
@@ -473,8 +472,6 @@ footer {
   }
 
   .skills {
-    margin-right: 0px;
-    margin-bottom: 0px;
     text-align: center;
   }
 
@@ -483,6 +480,7 @@ footer {
     margin-top: 0px;
   }
 
+  /*pc版の打消し*/
   .skills:not(:nth-child(3n)) {
     margin-right: 0px;
   }
